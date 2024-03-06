@@ -10,6 +10,5 @@ services:
     restart: always
     environment:
       MYSQL_DATABASE: 'product'
-      MYSQL_ROOT_PASSWORD: '@Loyal76'
-    ports:
-      - '5008:3306'
+      MYSQL_ROOT_PASSWORD: '********'
+          ports:- '5008:3306'
