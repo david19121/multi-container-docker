@@ -11,4 +11,5 @@ services:
     environment:
       MYSQL_DATABASE: 'product'
       MYSQL_ROOT_PASSWORD: '********'
-          ports:- '5008:3306'
+          ports:
+          - '5008:3306'
