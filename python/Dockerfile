@@ -2,6 +2,6 @@ FROM python
  
 RUN pip install mysql-connector-python
  
-WORKDIR /app
+WORKDIR /usr/app/src
  
-COPY . .
+COPY app.py ./
