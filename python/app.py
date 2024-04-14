@@ -10,4 +10,4 @@ employee = cursor.fetchall()
 connection.close()
  
 print(employee)
-ç
+print("finally laoded")
